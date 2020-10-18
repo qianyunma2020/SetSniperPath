@@ -1,0 +1,18 @@
+source /cvmfs/bes3.ihep.ac.cn/bes3sw/ExternalLib/SLC6/contrib/CMT/v1r25/mgr/setup.sh
+
+source /cvmfs/cepcsw.ihep.ac.cn/prototype/releases/externals/97.0.0/setup.sh
+
+source /cvmfs/sft.cern.ch/lcg/releases/ROOT/v6.20.02-d9e99/x86_64-slc6-gcc8-opt/bin/thisroot.sh
+
+export CPLUS_INCLUDE_PATH=/cvmfs/sft.cern.ch/lcg/views/LCG_97/x86_64-slc6-gcc8-opt/include/python2.7/
+
+export CMTPROJECTPATH=/data/BOSSParallel/ExternalInterface:/data/BOSSParallel
+
+export PYTHONPATH=/data/BOSSParallel/CEPCDataModel/InstallArea/python:/data/BOSSParallel/sniper/InstallArea/python:/data/BOSSParallel/CEPCDataModel/InstallArea/amd64_linux26/lib:/data/BOSSParallel/sniper/InstallArea/amd64_linux26/lib:$PYTHONPATH
+
+export LD_LIBRARY_PATH=/data/BOSSParallel/CEPCDataModel/InstallArea/amd64_linux26/lib:/data/BOSSParallel/sniper/InstallArea/amd64_linux26/lib:$LD_LIBRARY_PATH
+
+export PATH=$PATH:/data/BOSSParallel/jsoncpp/include/
+
+
+
